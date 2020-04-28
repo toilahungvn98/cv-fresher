@@ -1,0 +1,146 @@
+/* main color  */
+/* #3498db */
+
+
+body {
+    background: rgb(244, 244, 244);
+    font-size: 14px;
+    font-weight: normal;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    list-style: none;
+}
+
+/* === icon css ==  */
+.tag .fas.fa-phone {
+    transform: rotate(90deg);
+}
+.tag .fas.fa-phone ,
+.tag .far.fa-envelope-open{
+    margin-right: 5px;
+}
+
+section {
+    width: 90%;
+    background: #fff;
+    border-radius: 6px;
+    margin: 0 auto;
+    padding: 15px;
+    position: relative;
+}
+section:not(:first-child) {
+    margin-top: 70px;
+}
+section:last-child {
+    margin-bottom: 40px;
+}
+.about {
+    margin-top: 80px;
+}
+.about .avatar {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(244, 244, 244);
+}
+.about .avatar img {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin: 5px;
+    object-fit: cover;
+}
+.about__content {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 65px;
+}
+.about__content .name {
+    color: #3498db;
+}
+.about__content .paragraph {
+    color: rgba(0,0,0,0.87);
+    font-weight: 100;
+}
+
+.about .dock {
+    text-align: center;
+}
+.about .dock .tag {
+    font-size: 12px;
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 6px;
+    background: rgb(244, 244, 244);
+}
+
+.skills {
+    
+}
+
+.heading {
+
+}
+.heading .title {
+    position: relative;
+    padding-left: 15px;
+}
+.heading .title::before {
+    content : '';
+    position: absolute;
+    display: block;
+    width: 3px;
+    height: 35px;
+    background-color: #3498db;
+    left: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+
+}
+
+.skill {
+    margin-top: 35px;
+}
+.progress {
+    height: 10px;
+}
+.progress-bar.bg-blue-light {
+    background-color : #3498db;
+}
+
+.menu {
+    font-size: 13px;
+    color: rgba(0,0,0,0.70);
+}
+.menu__list:not(:last-child) {
+    margin-bottom: 10px;
+}
+.experiences {
+    margin-bottom: 50px;
+    padding-top: 15px;
+}
+.experience {
+    margin-top: 35px;
+}
+.experience .row {
+    align-items: stretch;
+}
+.experience .row .col-6 {
+    display: flex;
+}
+.experience .row .col-6 .box {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.experience  .box__content p {
+    line-height: 15px;
+}
